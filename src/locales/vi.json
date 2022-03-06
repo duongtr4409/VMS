@@ -1,0 +1,10 @@
+{
+	"message": {
+		"hello": "Xin chào"
+	},
+	"title": {
+		"home": "Trang chủ",
+		"account": "Tài khoản",
+		"menu": "Menu"
+	}
+}

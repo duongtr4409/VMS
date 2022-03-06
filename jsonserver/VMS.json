@@ -1,0 +1,185 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "DuowngTora",
+      "password": "44091998",
+      "isActive": 1
+    }
+  ],
+  "fields": [
+    {
+      "stringProp": {
+        "type": "string",
+        "title": "I'm a string",
+        "description": "This description is used as a help message."
+      }
+    },
+    {
+      "stringTextareaProp": {
+        "type": "string",
+        "title": "I'm a string in a textarea",
+        "x-display": "textarea"
+      }
+    },
+    {
+      "booleanProp": {
+        "type": "boolean",
+        "title": "I'm a boolean",
+        "description": "This description is used as a help message."
+      }
+    },
+    {
+      "booleanSwitchProp": {
+        "type": "boolean",
+        "title": "I'm a boolean with switch display",
+        "x-display": "switch",
+        "description": "This description is used as a help message."
+      }
+    },
+    {
+      "stringArrayProp": {
+        "type": "array",
+        "title": "I'm an array of strings",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "integerArrayProp": {
+        "type": "array",
+        "title": "I'm an array of integers",
+        "items": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "forms": [
+    {
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "form": [
+        [
+          {
+            "model": {},
+            "schema": {
+              "type": "object",
+              "properties": {
+                "stringTextareaProp": {
+                  "type": "string",
+                  "title": "I'm a string in a textarea",
+                  "x-display": "textarea"
+                }
+              }
+            }
+          }
+        ],
+        [
+          {
+            "model": {
+              "integerArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "integerArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of integers",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "id": 1
+    },
+    {
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T16:55:09.491Z",
+      "form": [
+        [
+          {
+            "model": {},
+            "schema": {
+              "type": "object",
+              "properties": {
+                "stringTextareaProp": {
+                  "type": "string",
+                  "title": "I'm a string in a textarea",
+                  "x-display": "textarea"
+                }
+              }
+            }
+          },
+          {
+            "model": {},
+            "schema": {
+              "type": "object",
+              "properties": {
+                "booleanProp": {
+                  "type": "boolean",
+                  "title": "I'm a boolean",
+                  "description": "This description is used as a help message."
+                }
+              }
+            }
+          },
+          {
+            "model": {},
+            "schema": {
+              "type": "object",
+              "properties": {
+                "booleanSwitchProp": {
+                  "type": "boolean",
+                  "title": "I'm a boolean with switch display",
+                  "x-display": "switch",
+                  "description": "This description is used as a help message."
+                }
+              }
+            }
+          },
+          {
+            "model": {
+              "integerArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "integerArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of integers",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "model": {
+              "stringArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "stringArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of strings",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "id": 2
+    }
+  ]
+}
