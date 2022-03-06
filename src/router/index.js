@@ -4,7 +4,8 @@ import HomeView from "../views/HomeView.vue";
 import ExampleVue from "@/views/example/Example.vue";
 import DnDropView from "@/views/example/DndropView.vue";
 import DnDropViewV1 from "@/views/example/DndropViewV1.vue";
-import MangerFormV1 from "@/views/example/ManagerFormView.vue";
+import ManagerFormV1 from "@/views/example/ManagerFormView.vue";
+import ManagerFieldV1 from "@/views/example/ManagerFieldView.vue"
 Vue.use(VueRouter);
 
 const routes = [
@@ -31,7 +32,12 @@ const routes = [
 	{
 		path: "/v1/managerform",
 		name: "MangeForm",
-		component: MangerFormV1,
+		component: ManagerFormV1,
+	},
+	{
+		path: "/v1/managerfield",
+		name: "MangeField",
+		component: ManagerFieldV1,
 	},
 ];
 

@@ -55,6 +55,11 @@ export default {
 					icon: "mdi-folder-multiple-outline",
 					link: "/v1/managerform",
 				},
+				{
+					title: "Manger Field",
+					icon: "mdi-code-tags",
+					link: "/v1/managerfield",
+				},
 			],
 			mini: true,
 		};

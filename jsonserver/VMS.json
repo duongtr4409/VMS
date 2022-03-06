@@ -9,51 +9,104 @@
   ],
   "fields": [
     {
-      "stringProp": {
-        "type": "string",
-        "title": "I'm a string",
-        "description": "This description is used as a help message."
-      }
-    },
-    {
-      "stringTextareaProp": {
-        "type": "string",
-        "title": "I'm a string in a textarea",
-        "x-display": "textarea"
-      }
-    },
-    {
-      "booleanProp": {
-        "type": "boolean",
-        "title": "I'm a boolean",
-        "description": "This description is used as a help message."
-      }
-    },
-    {
-      "booleanSwitchProp": {
-        "type": "boolean",
-        "title": "I'm a boolean with switch display",
-        "x-display": "switch",
-        "description": "This description is used as a help message."
-      }
-    },
-    {
-      "stringArrayProp": {
-        "type": "array",
-        "title": "I'm an array of strings",
-        "items": {
-          "type": "string"
+      "id": 1,
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "data": {
+        "stringProp": {
+          "type": "string",
+          "title": "I'm a string",
+          "description": "This description is used as a help message."
         }
       }
     },
     {
-      "integerArrayProp": {
-        "type": "array",
-        "title": "I'm an array of integers",
-        "items": {
-          "type": "integer"
+      "id": 2,
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "data": {
+        "stringTextareaProp": {
+          "type": "string",
+          "title": "I'm a string in a textarea",
+          "x-display": "textarea"
         }
       }
+    },
+    {
+      "id": 3,
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "data": {
+        "booleanProp": {
+          "type": "boolean",
+          "title": "I'm a boolean",
+          "description": "This description is used as a help message."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "data": {
+        "booleanSwitchProp": {
+          "type": "boolean",
+          "title": "I'm a boolean with switch display",
+          "x-display": "switch",
+          "description": "This description is used as a help message."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "data": {
+        "stringArrayProp": {
+          "type": "array",
+          "title": "I'm an array of strings",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "creater": "DuowngTora",
+      "createdate": "2022-03-05T15:54:27.373Z",
+      "data": {
+        "integerArrayProp": {
+          "type": "array",
+          "title": "I'm an array of integers",
+          "items": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    {
+      "creater": "DuowngTora",
+      "createdate": "2022-03-06T11:16:07.069Z",
+      "data": {
+        "dateProp": {
+          "type": "string",
+          "title": "I'm a simple date",
+          "format": "date",
+          "description": "This description is used as a help message."
+        },
+        "timeProp": {
+          "type": "string",
+          "title": "I'm a simple time of day",
+          "format": "time"
+        },
+        "dateTimeProp": {
+          "type": "string",
+          "title": "I'm a date with time",
+          "format": "date-time"
+        }
+      },
+      "id": 7
     }
   ],
   "forms": [
@@ -180,6 +233,115 @@
         ]
       ],
       "id": 2
+    },
+    {
+      "creater": "DuowngTora",
+      "createdate": "2022-03-06T10:22:07.423Z",
+      "form": [
+        [
+          {
+            "model": {},
+            "schema": {
+              "type": "object",
+              "properties": {
+                "stringTextareaProp": {
+                  "type": "string",
+                  "title": "I'm a string in a textarea",
+                  "x-display": "textarea"
+                }
+              }
+            }
+          },
+          {
+            "model": {
+              "stringArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "stringArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of strings",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "model": {
+              "stringArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "stringArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of strings",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        [
+          {
+            "model": {
+              "integerArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "integerArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of integers",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "model": {
+              "integerArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "integerArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of integers",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "model": {
+              "integerArrayProp": []
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "integerArrayProp": {
+                  "type": "array",
+                  "title": "I'm an array of integers",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "id": 3
     }
   ]
 }

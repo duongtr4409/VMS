@@ -32,6 +32,9 @@
 			</Container>
 		</div>
 
+		<div class="columns-line"></div>
+
+		<h2 style="text-align: center">Form</h2>
 		<div class="columns">
 			<div v-for="(items, index) in groups" :key="index" class="column">
 				<Container
@@ -220,7 +223,7 @@ export default {
 								model: {},
 								schema: {
 									type: "object",
-									properties: ele,
+									properties: ele.data,
 								},
 							});
 						});
@@ -363,4 +366,11 @@ label {
 	flex-grow: 1;
 	cursor: pointer;
 }
+
+/* My CSS */
+.columns-line {
+	margin: 10px 0 10px;
+	border: 1px solid #333;
+}
+/* End My CSS */
 </style>
